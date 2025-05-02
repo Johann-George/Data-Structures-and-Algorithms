@@ -27,8 +27,9 @@ class HashTable:
                 return v
             
 hash_table =HashTable(20)
-hash_table.insert("apple",20)
-print(hash_table.get("apple"))
-hash_table.delete("apple")
-print(hash_table.get("apple"))
+hash_table.insert("grapes",20)
+print(hash_table.get("grapes"))
+hash_table.insert("apples",24)
+print(hash_table.get("apples"))
+print(hash_table.table)
 
